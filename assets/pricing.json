@@ -1,0 +1,276 @@
+{
+    "data": [
+        {
+            "is_best_seller": false,
+            "title": "Bayi",
+            "price": "19.900",
+            "price_currency": "Rp",
+            "price_unit": "",
+            "sale_price": "14.900",
+            "sale_price_currency": "Rp",
+            "sale_price_unit": "bln",
+            "user_count": "938",
+            "user_count_word": "Pengguna Terdaftar",
+            "details" : [
+                {
+                    "strong_word": "0.5X RESOURCE POWER",
+                    "suffix": "",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "500 MB",
+                    "suffix": "Disk Space",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "Unlimited",
+                    "suffix": "Bandwith",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "Unlimited",
+                    "suffix": "Databases",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "1",
+                    "suffix": "Domain",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "Instant",
+                    "suffix": "Backup",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "Unlimited",
+                    "suffix": "SSL Gratis Selamanya",
+                    "is_html": false
+                }
+            ],
+            "call_to_action": {
+                "wording": "Pilih Sekarang",
+                "link": "#"
+            }
+        },
+        {
+            "is_best_seller": false,
+            "title": "Pelajar",
+            "price": "46.900",
+            "price_currency": "Rp",
+            "price_unit": "",
+            "sale_price": "23.450",
+            "sale_price_currency": "Rp",
+            "sale_price_unit": "bln",
+            "user_count": "4.168",
+            "user_count_word": "Pengguna Terdaftar",
+            "details": [
+                {
+                    "strong_word": "1X RESOURCE POWER",
+                    "suffix": "",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "Unlimited",
+                    "suffix": "Disk Space",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "Unlimited",
+                    "suffix": "Bandwith",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "Unlimited",
+                    "suffix": "POP3 Email",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "Unlimited",
+                    "suffix": "Databases",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "10",
+                    "suffix": "Addon Domain",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "Instant",
+                    "suffix": "Backup",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "Domain Gratis",
+                    "suffix": "Selamanya",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "Unlimited",
+                    "suffix": "SSL Gratis Selamanya",
+                    "is_html": false
+                }
+            ],
+            "call_to_action": {
+                "wording": "Pilih Sekarang",
+                "link": ""
+            }
+        },
+        {
+            "is_best_seller": true,
+            "title": "Personal",
+            "price": "58.900",
+            "price_currency": "Rp",
+            "price_unit": "",
+            "sale_price": "38.900",
+            "sale_price_currency": "Rp",
+            "sale_price_unit": "bln",
+            "user_count": "10.017",
+            "user_count_word": "Pengguna Terdaftar",
+            "details": [
+                {
+                    "strong_word": "2X RESOURCE POWER",
+                    "suffix": "",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "Unlimited",
+                    "suffix": "Disk Space",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "Unlimited",
+                    "suffix": "Bandwith",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "Unlimited",
+                    "suffix": "POP3 Email",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "Unlimited",
+                    "suffix": "Databases",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "Unlimited",
+                    "suffix": "Addon Domain",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "Instant",
+                    "suffix": "Backup",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "Domain Gratis",
+                    "suffix": "Selamanya",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "Unlimited",
+                    "suffix": "SSL Gratis Selamanya",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "Private",
+                    "suffix": "Name Server",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "SpamAssasin",
+                    "suffix": "Mail Protection",
+                    "is_html": false
+                }
+            ],
+            "call_to_action": {
+                "wording": "Pilih Sekarang",
+                "link": ""
+            }
+        },
+        {
+            "is_best_seller": false,
+            "title": "Bisnis",
+            "price": "109.900",
+            "price_currency": "Rp",
+            "price_unit": "",
+            "sale_price": "65.900",
+            "sale_price_currency": "Rp",
+            "sale_price_unit": "bln",
+            "user_count": "3.552",
+            "user_count_word": "Pengguna Terdaftar",
+            "details": [
+                {
+                    "strong_word": "3X RESOURCE POWER",
+                    "suffix": "",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "Unlimited",
+                    "suffix": "Disk Space",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "Unlimited",
+                    "suffix": "Bandwith",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "Unlimited",
+                    "suffix": "POP3 Email",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "Unlimited",
+                    "suffix": "Databases",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "Unlimited",
+                    "suffix": "Addon Domain",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "Magic Auto",
+                    "suffix": "Backup & Restore",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "Domain Gratis",
+                    "suffix": "Selamanya",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "Unlimited",
+                    "suffix": "SSL Gratis Selamanya",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "Private",
+                    "suffix": "Name Server",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "Prioritas",
+                    "suffix": "Layanan Support",
+                    "is_html": false
+                },
+                {
+                    "strong_word": "",
+                    "suffix": "<i class='zmdi zmdi-star _blue_color'></i><i class='zmdi zmdi-star _blue_color'></i><i class='zmdi zmdi-star _blue_color'></i><i class='zmdi zmdi-star _blue_color'></i><i class='zmdi zmdi-star _blue_color'></i>",
+                    "is_html": true
+                },
+                {
+                    "strong_word": "SpamExpert",
+                    "suffix": "Pro Mail Protection",
+                    "is_html": false
+                }
+            ],
+            "call_to_action": {
+                "wording": "Diskon 40%",
+                "link": ""
+            }
+        }
+    ]
+}

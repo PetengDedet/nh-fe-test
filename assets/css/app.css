@@ -1,0 +1,699 @@
+
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+._hide_small {
+    display: none;
+}
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+._hero_section {
+    border-bottom: 1px solid #3333;
+}
+
+._sub_nav {
+    padding: 2px 0px;
+    margin: 0px;
+    flex: 1;
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+._sub_nav li a {
+    color: rgba(0, 0, 0, 0.55);
+    font-size: small;
+}
+
+._sub_nav li a:hover {
+    color: #007fde;
+    text-decoration: none;
+}
+
+._sub_nav li ul {
+    display: flex;
+    list-style: none;
+}
+
+._bookmark_icon {
+    background-image: url('../svg/bookmark.svg');
+    height: 44px;
+    display: inline flow-root list-item;
+    width: 33px;
+    padding: 6px;
+}
+
+._bookmark_icon i {
+    color: white;
+    font-size: 18px;
+}
+._sub_nav_contact_action {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+._sub_nav_contact_action ul li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+._sub_nav_contact_action ul li a i{
+    font-size: small;
+}
+
+.navbar {
+    border-top: 1px solid #3333;
+    border-bottom: 1px solid #3333;
+}
+
+.navbar-brand {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.navbar-brand img {
+    width: 200px;
+    height: auto;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+    color: #007fde !important;
+}
+
+/* COLOR */
+._green_color {
+    color: #00b348;
+}
+._blue_color {
+    color: #0090ef;
+}
+/* //COLOR */
+
+.text-center {
+    text-align: center !important;
+}
+
+._hero_feature_list {
+    padding-left: 0px;
+    list-style: none;
+    color: rgba(0, 0, 0, 0.60);
+}
+
+._hero_feature_list li {
+    font-size: 14px;
+    font-weight: 200;
+    font-family: Roboto, sans-serif;
+    padding-bottom: 8px;
+}
+
+._hero_feature_list li i {
+    font-size: 14px;
+}
+
+._hero_title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 40px;
+}
+
+._hero_description {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.70);
+    text-align: left;
+}
+
+._hero_section {
+    padding: 20px 0px;
+}
+
+#_big_support_tech {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#_big_support_tech .container .row .col-sm {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+._big_support_tech_figure {
+   align-self: center;
+   padding-bottom: 40px;
+}
+
+._big_support_tech_figure figcaption {
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 200;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+}
+
+#_paket_hosting_section {
+    padding: 40px 20px;
+}
+
+._paket_hosting_title, ._paket_hosting_description {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+._paket_hosting_title_col h2 {
+    font-size: 20px;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.70);
+}
+
+._paket_hosting_title_col p {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.70);
+}
+
+._pricing_card {
+    font-family: 'Montserrat', sans-serif;
+}
+
+._best_seller_card {
+    border-color: #0090ef !important;
+}
+
+._best_seller_card .list-group ._pricing_card_title {
+    background-color: #0090ef;
+    color: white;
+    border-color: #0090ef;
+}
+
+._best_seller_card .list-group ._pricing_card_price {
+    background-color: #0090ef !important;
+    color: white;
+    border-color: #0090ef;
+}
+
+._best_seller_card .list-group ._pricing_card_user_count {
+    background-color: #007fde !important;
+    color: white;
+    border-color: #007fde;
+}
+
+._best_seller_card .list-group ._pricing_card_details ._pricing_card_call_to_action {
+    background-color: #007fde !important;
+    color: white;
+    border-color: #007fde;
+}
+
+._best_seller_ribbon {
+    z-index: 1;
+    transform: rotateX;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    position: absolute;
+    width: 150px;
+    left: -36px;
+    top: 22px;
+
+}
+
+
+._pricing_card_col {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 40px;
+}
+
+._pricing_card_title h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+._pricing_price_sale_container {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+._pricing_sale_large {
+    font-size: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    line-height: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+._pricing_card_details {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+._pricing_details_ul {
+    padding-left: 0px;
+    list-style: none;
+    text-align: center;
+    font-size: 14px;
+    line-height: 2;
+}
+
+._pricing_card_call_to_action {
+    border-width: 2px;
+    border-radius: 10rem;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+
+#_powerful_limit_section {
+    padding: 40px 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#_powerful_limit_section ._section_end_line {
+
+    margin-top: 40px;
+    background-color: #f5f5f5;
+    height: 6px;
+    width: 80px;
+}
+
+#_powerful_limit_section .col-lg-6 {
+    margin-bottom: 20px;
+}
+
+._powerfull_limit_section_title {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 28px;
+}
+
+._powerful_limit_list {
+    list-style: none;
+    padding-left: 0px;
+}
+
+._powerful_limit_list li:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+._powerful_limit_list_item {
+    font-size: normal;
+    display: flex;
+}
+
+._powerful_limit_list_item  ._checklist_container {
+    flex-shrink: 1;
+}
+
+._powerful_limit_list_item  ._item_wording {
+    flex-grow: 1;
+    text-align: center;
+    font-weight: 300;
+}
+
+._semua_paket_figure_container {
+    text-align: center;
+}
+
+._semua_paket_figure {
+    text-align: center;
+}
+
+._semua_paket_figure img {
+    width: 80px;
+}
+
+#_mendukung_laravel_section {
+    padding-top: 40px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+._mendukung_laravel_title {
+    margin-bottom: 28px;
+}
+
+._mendukung_laravel_description {
+    text-align: left;
+    font-size: large;
+    
+}
+
+._mendukung_laravel_list {
+    padding-left: 0px;
+    list-style: none;
+}
+
+._mendukung_laravel_list i {
+    font-size: 14px;
+}
+
+._mendukung_laravel_list li {
+    line-height: 2;
+    font-size: small;
+}
+
+#_modul_lengkap_section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+._modul_lengkap_list {
+    list-style: none;
+    padding-left: 0px;
+}
+
+._modul_lengkap_list_col {
+    text-align: center;
+}
+
+#_linux_hosting_section {
+    padding-top: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+._linux_hosting_image {
+    width: 100%;
+}
+
+._linux_hosting_title {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+._linux_hosting_description {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    /* line-height: 2; */
+}
+
+#_bagikan_section {
+    background-color: #f7f7f7;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+._social_icon_container {
+    display: flex;
+}
+
+._social_icon_container img {
+    width: 28px;
+    margin-right: 10px;
+}
+._speech_bubble {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 10px;
+    border-radius: .4em;
+    border: 1px solid gray;
+    max-height: 28px;
+    font-size: small;
+}
+
+._speech_bubble:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+    border-right-color: gray;
+    border-left: 0;
+    margin-top: -8px;
+    margin-left: -8px;
+}
+
+._social_icon_color {
+    margin-right: 10px;
+    display: flex;
+}
+
+#_bantuan_section {
+    background-color: #0090ef;
+    color: white;
+    padding: 40px 0px;
+}
+
+._bantuan_wording {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: medium;
+    text-align: center;
+}
+
+._bantuan_wording a {
+    color: white;
+}
+
+._bantuan_wording a:hover {
+    color: white;
+}
+
+._bantuan_wording strong{
+    font-weight: bold;
+}
+
+._bantuan_action {
+    border-color: white;
+    color: white;
+    border-radius: 10rem;
+    padding: 10px 40px
+}
+
+._bantuan_action i {
+    font-size: inherit;
+}
+
+._call_to_action_primary {
+    background-color: #0090ef;
+    color: white;
+    border-color: white;
+    border-radius: 10rem;
+    padding: 10px 20px;
+}
+
+._call_to_action_primary:hover {
+    background-color: #007fde;
+}
+
+footer {
+    background-color: #333333;
+    text-align: center;
+    color: #d7d7d7;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+}
+
+footer a {
+    color: #d7d7d7;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #d7d7d7;
+}
+
+._footer_links_column {
+    margin-bottom: 40px;
+}
+
+._footer_column_title {
+    color: #8d8d8d;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+._footer_ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+._form_group {
+    background: white;
+    border-radius: 10rem;
+    height: 52px;
+    text-align: center;
+    padding: 2px 2px;
+}
+
+._news_letter_input {
+    border-top-left-radius: 5rem !important;
+    border-bottom-left-radius: 5rem !important;
+}
+
+._news_letter_button {
+    border-top-right-radius: 5rem !important;
+    border-bottom-right-radius: 5rem !important;
+    background-color: #0090ef;
+    color: white;
+}
+
+._social_media_links_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+._social_media_links_container a {
+    border: 1px solid #8d8d8d;
+    border-radius: 50%;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+._social_media_links_container a i {
+    font-size: larger;
+}
+
+._social_media_links_container a:hover {
+    color: #0090ef;
+    border-color: #0090ef;
+}
+
+._bank_logo_container div {
+    margin-bottom: 20px;
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    ._hero_section {
+        padding: 80px 40px !important;
+        /* background-color: #0090ef; */
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+    .navbar-brand img {
+        width: 232px;
+        height: auto;
+    }
+    ._hero_section {
+        padding: 80px 26px !important;
+        /* background-color: #0090ef; */
+    }
+
+    #_linux_hosting_section {
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 0px;
+    }
+
+    ._modul_lengkap_list_col {
+        text-align: left;
+    }
+
+    ._bantuan_wording {
+        font-size: large;
+    }
+
+    footer {
+        text-align: justify;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    ._hide_small {
+        display: flex;
+    }
+
+    ._hero_section {
+        /* background-color: red; */
+        padding: 100px 40px !important;
+    }
+
+    ._hero_feature_list li {
+        font-size: 18px;
+        padding-bottom: 8px;
+    }
+
+    ._hero_feature_list li i {
+        font-size: 18px;
+    }
+
+    ._hero_title {
+        font-weight: 800;
+        font-size: 50px;
+    }
+
+    ._hero_description {
+        font-weight: 300;
+        font-size: 24px;
+    }
+
+    ._mendukung_laravel_list li {
+        font-size: inherit;
+    }
+
+    ._bantuan_wording {
+        border-right: 0.5px solid #f7f7f7;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        font-size: x-large;
+        text-align: left;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    #_mendukung_laravel_section {
+        padding-top: 40px;
+        padding-bottom: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    ._modul_lengkap_list_col {
+        display: flex;
+        justify-content: center;
+        text-align: left;
+    }
+}
+
+/*  XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+    ._bantuan_wording {
+        font-weight: 300;
+        font-size: xx-large;
+        text-align: left;
+    }
+}
+
+/* biru 2   #007fde */
